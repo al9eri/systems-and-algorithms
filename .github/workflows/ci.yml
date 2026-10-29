@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile all POSIX C concurrency & IPC kernels
+        run: make all
+      - name: Verify Python divide-and-conquer & radix algorithms
+        run: |
+          python3 algorithms/radix_sort_lsd.py
+          python3 algorithms/interval_overlap_divide_and_conquer.py

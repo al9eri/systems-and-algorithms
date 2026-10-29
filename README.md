@@ -1,5 +1,9 @@
 # Systems Programming & Algorithms
 
+[![CI](https://github.com/al9eri/systems-and-algorithms/actions/workflows/ci.yml/badge.svg)](https://github.com/al9eri/systems-and-algorithms/actions/workflows/ci.yml)
+![C11](https://img.shields.io/badge/Standard-POSIX_C11-A855F7?style=flat-square&labelColor=0B0F17)
+![Concurrency](https://img.shields.io/badge/IPC-pthreads_%C2%B7_SysV_SHM_%C2%B7_Sockets-00F0FF?style=flat-square&labelColor=0B0F17)
+
 A curated collection of **POSIX systems programming implementations in C** (concurrency primitives, synchronization patterns, and inter-process communication) alongside **classic algorithm implementations in Python**.
 
 ---
