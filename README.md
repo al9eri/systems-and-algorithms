@@ -3,9 +3,7 @@
 [![CI](https://github.com/al9eri/systems-and-algorithms/actions/workflows/ci.yml/badge.svg)](https://github.com/al9eri/systems-and-algorithms/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Coursework implementations of **POSIX systems programming in C** (concurrency, synchronization primitives, shared-memory IPC, and BSD sockets) alongside algorithm implementations in Python.
-
-Developed across undergraduate operating systems and algorithms coursework at Khalifa University.
+Reference implementations of **POSIX systems programming in C11** (`pthreads`, counting semaphores, mutexes, System V shared-memory IPC, and `AF_INET` TCP sockets) and classic divide-and-conquer / sorting algorithms in Python.
 
 ---
 
